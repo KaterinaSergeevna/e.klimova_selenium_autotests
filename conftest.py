@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from test_UI_eklimova_selenium.pages.create_new_account_page import CreateNewAccount
-from test_UI_eklimova_selenium.pages.eco_frienfly_page import EcoFriendlyPage
-from test_UI_eklimova_selenium.pages.sale_page import SalePage
+from pages.create_new_account_page import CreateNewAccount
+from pages.eco_frienfly_page import EcoFriendlyPage
+from pages.sale_page import SalePage
 import pytest
 import json
 
