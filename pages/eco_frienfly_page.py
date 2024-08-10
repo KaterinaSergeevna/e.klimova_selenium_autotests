@@ -2,8 +2,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-from test_UI_eklimova_selenium.pages.base_page import BasePage
-from test_UI_eklimova_selenium.pages.locators import EcoFriendlyPage as loc
+from pages.base_page import BasePage
+from pages.locators import EcoFriendlyPage as loc
 
 import allure
 

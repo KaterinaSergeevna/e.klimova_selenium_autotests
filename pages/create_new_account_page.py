@@ -1,7 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-from test_UI_eklimova_selenium.pages.base_page import BasePage
-from test_UI_eklimova_selenium.pages.locators import CreateNewAccountPage as loc
+from pages.base_page import BasePage
+from pages.locators import CreateNewAccountPage as loc
 import json
 
 import allure
